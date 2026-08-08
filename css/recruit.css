@@ -1,0 +1,66 @@
+/* ================================================= */
+/* =============== ТОЛЬКО ДЛЯ RECRUIT.HTML ========= */
+/* ================================================= */
+
+@media(max-width:768px) {
+
+    /* Убираем скролл */
+    #recruit-page {
+        width: 100% !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        padding-top: 80px !important;
+    }
+
+    #recruit-page .container {
+        width: 94% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    #recruit-page .promotion-layout,
+    #recruit-page .promotion-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    /* Все карточки */
+    #recruit-page .card,
+    #recruit-page .info-card,
+    #recruit-page .step,
+    #recruit-page .warning-recruit {
+        max-width: 100% !important;
+        overflow-wrap: break-word !important;
+        word-break: break-word !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Код — это главный виновник скролла */
+    #recruit-page .code {
+        max-width: 100% !important;
+        white-space: pre-wrap !important;
+        word-break: break-all !important;
+        overflow-wrap: anywhere !important;
+        overflow-x: hidden !important;
+        font-size: 12px !important;
+        padding: 12px !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Заголовки */
+    #recruit-page h1 { font-size: 26px !important; }
+    #recruit-page h2 { font-size: 22px !important; }
+    #recruit-page h3 { font-size: 18px !important; }
+
+    /* Списки */
+    #recruit-page ul { padding-left: 20px !important; }
+    #recruit-page li { overflow-wrap: break-word !important; }
+
+    /* Все элементы */
+    #recruit-page * {
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
+    }
+
+}
